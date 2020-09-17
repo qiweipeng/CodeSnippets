@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>description</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (NSString *)description {
+    return [NSString stringWithFormat:@"%@: &lt;#property#&gt; = %@ &lt;#prpperty#&gt; = %@ &lt;#...#&gt;", self.class, &lt;#variable#&gt;, &lt;#variable#&gt;];
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>30CB462F-E31F-4014-BC99-919B4FFA7A2E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>重写 description 方法，用于控制器调试。</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Override Description Methed</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
